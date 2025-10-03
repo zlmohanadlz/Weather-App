@@ -1,0 +1,73 @@
+/* Fonts Imports */
+
+@font-face {
+	font-family: arabic;
+	src: url("/public/Fonts/IBMPlexSansArabic-Bold.ttf");
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: arabic;
+	src: url("/public/Fonts/IBMPlexSansArabic-Regular.ttf");
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: arabic;
+	src: url("/public/Fonts/IBMPlexSansArabic-Light.ttf");
+	font-weight: 300;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #0052d0;
+}
+
+main {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+}
+
+.card {
+	background-color: rgb(28 52 91 / 36%);
+	color: white;
+	padding: 1rem;
+	border-radius: 15px;
+	box-shadow: 0 11px 1px rgb(0 0 0 / 0.05);
+	width: 100%;
+}
+
+.card h2 {
+	font-size: 30px;
+	margin: 0 10px 5px 0;
+}
+
+.card-header {
+	display: flex;
+	align-items: flex-end;
+}
+
+.card .card-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+
+.card .temp {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card .card-content span {
+	margin: 0 5px;
+	font-weight: bold;
+}
